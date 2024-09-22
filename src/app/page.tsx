@@ -22,25 +22,39 @@ export default function Home() {
           <div className="h-[668px] sm:h-[340px]">
             <ProjectCard
               borderColor="border-pt-border--green"
-              title="Project 1"
+              title="Kaunsa Music"
+              link="https://github.com/uniyall/kaunsa-music"
+              img_num={1}
             >
-              Project description - My project is the greatest investion ever in
-              this whole wide world and I am so proud that I made this happen
+              A UI-focused web application that suggests music based on user
+              input. The project emphasizes multiple API integrations, including
+              Spotify, Genius, and OpenAI APIs.
             </ProjectCard>
           </div>
           <div className="h-[668px] sm:h-[340px]">
             <ProjectCard
               borderColor="border-pt-border--brown"
-              title="Project 2"
+              title="PayKaro"
+              link="https://github.com/uniyall/payment-app"
+              img_num={2}
             >
-              Project description - My project is the greatest investion ever in
-              this whole wide world and I am so proud that I made this happen
+              A full-stack payment application with a React frontend and Node.js
+              backend. The server is hosted in an auto-scaling EC2 instance
+              group within an AWS VPC, and it is exposed to the internet through
+              an Application Load Balancer.
             </ProjectCard>
           </div>
           <div className="h-[668px] sm:h-[340px]">
-            <ProjectCard borderColor="border-pt-border--blue" title="Project 3">
-              Project description - My project is the greatest investion ever in
-              this whole wide world and I am so proud that I made this happen
+            <ProjectCard
+              borderColor="border-pt-border--blue"
+              title="Smritify"
+              link="https://www.npmjs.com/package/smritify"
+              img_num={3}
+            >
+              Smritify is a CLI tool designed for taking and managing notes
+              efficiently. It provides a simple yet effective way to create,
+              view, search, and delete notes right from the terminal. Made using
+              Node.js.
             </ProjectCard>
           </div>
           <Link href="https://github.com/uniyall" target="_blank">

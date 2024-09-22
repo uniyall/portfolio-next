@@ -48,7 +48,7 @@ function HeroSection() {
           </Link>
         </div>
       </div>
-      <div className="bg-[url('/prateek.jpg')] sm:bg-[length:150%] bg-cover bg-center sm:w-3/4 sm:h-full w-[219px] h-[288px] justify-self-center rounded-3xl shadow-xl shadow-[#7575759d] row-start-1 sm:row-start-auto" />
+      <div className="bg-[url('/prateek.jpg')] sm:bg-[length:190%] bg-cover bg-no-repeat bg-center sm:w-3/4 sm:h-full w-[219px] h-[288px] justify-self-center rounded-3xl shadow-xl shadow-[#7575759d] row-start-1 sm:row-start-auto" />
     </div>
   );
 }

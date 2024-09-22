@@ -20,9 +20,6 @@ function Navbar() {
             Projects
           </h1>
         </Link>
-        <h1 className="text-h6-putech text-lightMode-green dark:text-darkMode-green">
-          Contact
-        </h1>
       </div>
     </div>
   );
